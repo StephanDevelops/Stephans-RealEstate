@@ -565,7 +565,7 @@ header .icons #menu-bars {
         box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
         border-radius: 0.5rem;
     }
-
+/* 
     .home {
     background: transparent url(./Images/home-bg.jpg) no-repeat;
     background-attachment: fixed;
@@ -575,6 +575,17 @@ header .icons #menu-bars {
     width: 100%;
     max-width: 100%;
     }
+ */
+    .home {
+    min-height: 100vh;
+    background: url(./Images/home-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 }
 
 @media (max-width: 450px) {
