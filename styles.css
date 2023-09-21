@@ -566,7 +566,7 @@ header .icons #menu-bars {
         border-radius: 0.5rem;
     }
 
-    .home {
+/*     .home {
     background: transparent url(./Images/home-bg.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -577,7 +577,7 @@ header .icons #menu-bars {
     height: 100%;
     max-height: 100%;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 /*     width: 100%;
     max-width: 100%; */
     }
