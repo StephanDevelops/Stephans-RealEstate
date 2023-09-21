@@ -86,7 +86,7 @@ header .logo {
 } */
 
 header .navbar a {
-    color: #333;
+    color: #fff;
     font-size: 2rem;
     padding: 0 1.5rem;
 }
@@ -561,6 +561,7 @@ header .icons #menu-bars {
         padding: 1.5rem;
         margin: 1.5rem;
         background: #fff;
+        color: #333;
         border: 0.1rem solid #333;
         box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
         border-radius: 0.5rem;
