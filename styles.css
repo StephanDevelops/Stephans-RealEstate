@@ -565,19 +565,20 @@ header .icons #menu-bars {
         box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
         border-radius: 0.5rem;
     }
-/* 
+
     .home {
     background: transparent url(./Images/home-bg.jpg) no-repeat;
     background-attachment: fixed;
     background-size: 400px;
     margin: 0;
     padding: 0;
-    width: 100%;
-    max-width: 100%;
+    min-height: 100vh;
+/*     width: 100%;
+    max-width: 100%; */
     }
- */
-    .home {
-/*     min-height: 100vh; */
+
+/*     .home {
+    min-height: 100vh;
     background: transparent url(./Images/home-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
@@ -586,10 +587,10 @@ header .icons #menu-bars {
     max-width: 100%;
     margin: 0;
     padding: 0;
-/*     display: flex;
+    display: flex;
     align-items: center;
-    justify-content: center; */
-}
+    justify-content: center;
+    } */
 }
 
 @media (max-width: 450px) {
