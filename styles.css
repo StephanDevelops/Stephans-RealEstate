@@ -579,11 +579,13 @@ header .icons #menu-bars {
     .home {
 /*     min-height: 100vh; */
     background: transparent url(./Images/home-bg.jpg) no-repeat;
-    background-size: 400px;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
     width: 100%;
     max-width: 100%;
+    margin: 0;
+    padding: 0;
 /*     display: flex;
     align-items: center;
     justify-content: center; */
