@@ -121,6 +121,7 @@ header .icons #menu-bars {
 .home {
     min-height: 100vh;
     background: url(./Images/home-bg.jpg) no-repeat;
+    image-rendering: pixelated; /* or crisp-edges */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -567,6 +568,8 @@ header .icons #menu-bars {
         border-radius: 0.5rem;
     }
 
+}
+
 /*     .home {
     background: transparent url(./Images/home-bg.jpg) no-repeat;
     background-attachment: fixed;
@@ -581,7 +584,7 @@ header .icons #menu-bars {
     justify-content: center; */
 /*     width: 100%;
     max-width: 100%; */
-    }
+    /* } */
 
 /*     .home {
     min-height: 100vh;
@@ -597,7 +600,7 @@ header .icons #menu-bars {
     align-items: center;
     justify-content: center;
     } */
-}
+/* }  */
 
 @media (max-width: 450px) {
     html {
