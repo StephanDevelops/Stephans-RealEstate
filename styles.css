@@ -120,6 +120,7 @@ header .icons #menu-bars {
 
 .home {
     min-height: 100vh;
+    min-width: 100vw;
     background: url(./Images/home-bg.jpg) no-repeat;
     background-size: cover;
     /* -webkit-background-size: cover;
