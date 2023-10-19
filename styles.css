@@ -122,7 +122,8 @@ header .icons #menu-bars {
     min-height: 100vh;
 /*     background: url(./Images/home-bg.jpg) no-repeat; */
     background: url(./Images/home-bg.jpg) no-repeat;
-    background-image: -webkit-image-set(url('./Images/home-bg.avif') type('image/avif'), url('./Images/home-bg.webp') type('image/webp'), url('./Images/home-bg.jpg') type('image/jpeg')); 
+    background: -moz-image-set(url(./Images/home-bg.jpg));
+    background: -webkit-image-set(url(./Images/home-bg.jpg));
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
