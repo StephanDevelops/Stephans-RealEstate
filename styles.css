@@ -571,8 +571,8 @@ header .icons #menu-bars {
 
     .home {
         image-rendering: pixelated;
-        -webkit-background-size: 1400px 933px;
-        -moz-background-size: 1400px 933px;
+        /* -webkit-background-size: ;
+        -moz-background-size: ; */
     }
 
 }
