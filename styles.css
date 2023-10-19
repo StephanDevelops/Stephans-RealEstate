@@ -120,7 +120,6 @@ header .icons #menu-bars {
 
 .home {
     min-height: 100vh;
-    min-width: 100vw;
     background: url(./Images/home-bg.jpg) no-repeat;
     background-size: cover;
     /* -webkit-background-size: cover;
@@ -568,6 +567,12 @@ header .icons #menu-bars {
         border: 0.1rem solid #333;
         box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
         border-radius: 0.5rem;
+    }
+
+    .home {
+        image-rendering: pixelated;
+        -webkit-background-size: 1400px 933px;
+        -moz-background-size: 1400px 933px;
     }
 
 }
