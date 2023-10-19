@@ -570,7 +570,7 @@ header .icons #menu-bars {
     }
 
     .home {
-        image-rendering: pixelated;
+        image-rendering: crisp-edges;
         /* -webkit-background-size: ;
         -moz-background-size: ; */
     }
