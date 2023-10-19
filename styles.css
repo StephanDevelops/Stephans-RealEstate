@@ -121,6 +121,10 @@ header .icons #menu-bars {
 .home {
     min-height: 100vh;
     background: url(./Images/home-bg.jpg) no-repeat;
+    background: image-set(
+        "./Images/home-bg.avif" type("image/avif"),
+        "./Images/home-bg.jpg" type("image/jpeg")
+    );    
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
