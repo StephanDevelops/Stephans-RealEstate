@@ -121,8 +121,9 @@ header .icons #menu-bars {
 .home {
     min-height: 100vh;
     background: url(./Images/home-bg.jpg) no-repeat;
-    image-rendering: crisp-edges;
     background-size: cover;
+    -webkit-background-size: 1400px 933px;
+    -moz-background-size: 1400px 933px;
     background-position: center;
     background-attachment: fixed;
     display: flex;
