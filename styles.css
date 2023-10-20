@@ -569,12 +569,6 @@ header .icons #menu-bars {
         border-radius: 0.5rem;
     }
 
-    .home {
-        image-rendering: crisp-edges;
-        /* -webkit-background-size: ;
-        -moz-background-size: ; */
-    }
-
 }
 
 /*     .home {
